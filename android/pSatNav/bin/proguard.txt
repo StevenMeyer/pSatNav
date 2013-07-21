@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:19
+-keep class uk.co.stevenmeyer.psatnav.android.DirectionsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class uk.co.stevenmeyer.psatnav.android.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:27
+-keepclassmembers class * { *** startRoute(...); }
+

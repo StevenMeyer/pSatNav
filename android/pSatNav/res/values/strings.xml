@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pSatNav</string>
+    <string name="destination">Destination</string>
+    <string name="my_location">My location</string>
+    <string name="avoid_mway">Avoid motorways</string>
+    <string name="avoid_tolls">Avoid tolls</string>
+    <string name="go">Start</string>
+</resources>

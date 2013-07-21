@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    >
+<EditText
+    android:id="@+id/edittext_destination"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:hint="@string/destination"/>
+<CheckBox 
+    android:id="@+id/checkbox_avoid_mway"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/avoid_mway"/>
+<CheckBox 
+    android:id="@+id/checkbox_avoid_toll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/avoid_tolls"/>
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"/>
+<Button
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/go"
+    android:onClick="startRoute"/>
+</LinearLayout>
+
